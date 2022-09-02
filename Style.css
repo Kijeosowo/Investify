@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #333;
+  font-family: 'Lato', sans-serif;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.logo {
+  color: #333;
+  font-size: 2rem;
+  margin-left: 5%;
+  margin-top: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0px;
+  background-color: #fff;
+  height: 4rem;
+  box-shadow: 0px 0px 15px 15px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  /* margin-top: 0; */
+  padding-top: 1.5rem;
+  margin-left: 40%;
+  background-color: #1DDA0C;
+  height: 2.5rem;
+  width: 50%;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+  /* margin: 10px; */
+  color: #fff;
+  font-weight: lighter;
+  margin-top: 3rem;
+}
+
+li a:hover {
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  margin-left: 0%;
+  margin-top: 30px;
+}
+
+.container img {
+  width: 40%;
+  margin-left: 10%;
+  margin-top: 5%;
+  border: 5px solid #1DDA0C;
+  border-radius: 30px;
+  box-shadow: 0px 0px 15px 15px rgba(0,0,0,0.2);
+}
+
+.text {
+  margin-left: 10%;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+span {
+  color: #1DDA0C;
+}
+
+.text {
+  margin-top: 5%;
+}
+
+.text p {
+  color: #fff;
+}
+
+.wrap {
+  display: flex;
+  margin-left: 8%;
+  margin-top: -7rem;
+}
+
+#iPhone {
+  padding: 1rem;
+  margin-left: 2%;
+  border-radius: 5px;
+  display: flex;
+  background-color: rgb(212, 205, 205);
+  height: 5vh;
+  box-shadow: 0px 0px 15px 15px rgba(0,0,0,0.1);
+}
+
+#iPhone img {
+  width: 30%;
+  height: 4vh;
+  margin-left: -10%;
+}
+
+#iPhone a {
+  text-decoration: none;
+  color: #000;
+  font-size: 11px;
+}
+
+/* #iPhone:hover {
+  background-color: #0D56BF;
+  transition: all ease 1s;
+}
+
+#iPhone a:hover {
+  color: #fff;
+  transition: all ease 1s;
+} */
+
+#Android {
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  background-color: rgb(212, 205, 205);;
+  height: 5vh;
+  margin-left: 2%;
+  box-shadow: 0px 0px 15px 15px rgba(0,0,0,0.1);
+}
+
+#Android img {
+  width: 30%;
+  height: 4vh;
+  margin-left: -10%;
+}
+
+#Android a {
+  text-decoration: none;
+  color: #000;
+  font-size: 11px;
+}
+
+/*
+#Android:hover {
+  background-color: #0D56BF;
+  transition: all ease 1s;
+}
+
+#Android a:hover {
+  color: #fff;
+  transition: all ease 1s;
+} */
+
+img {
+  margin-left: 5%;
+}
+
+/* @keyframes bgimage {
+  0% {margin-right: 5%}
+  100% {margin-left: 10%}
+} */
+
+.savings h4 {
+  text-align: center;
+  color: #333;
+  margin-top: 10rem;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+h3 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+#savings {
+  box-shadow: 0px 0px 15px 15px rgba(0,0,0,0.1);
+  background-color: #fff;
+  padding-bottom: 5rem;
+}
+
+.savings p {
+  text-align: center;
+  color: #333;
+  margin-top: -20px;
+}
+
+.Box p {
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+}
+
+.Box {
+  display: flex;
+  justify-content: center;
+}
+
+.Box1 {
+  background-color: #333;
+  padding: 2rem;
+  border-radius: 5px;
+  margin: 20px;
+  box-shadow: 0px 15px 15px 0px rgba(0,0,0,0.3);
+}
+
+.Box1 a {
+  text-decoration: none;
+  color: #1DDA0C;
+  font-size: 13px;
+}
+
+.Box1 h5 {
+  text-align: center;
+  color: #fff;
+}
+
+.Box1 p {
+  color: #fff;
+  text-align: left;
+}
+
+.Tutors {
+  display: flex;
+  margin-left: 0%;
+  margin-top: 5rem;
+}
+
+.Tutors img {
+  width: 30%;
+  margin-top: 3rem;
+}
+
+.Tuts {
+  margin-left: 10%;
+  margin-top: 5rem;
+}
+
+.Tuts h5 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.Tuts p {
+  color: #fff;
+  margin-top: 30px;
+}
+
+.Learn {
+  margin-top: 30px;
+}
+
+.Learn a {
+  text-decoration: none;
+  background-color: #1DDA0C;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+#Testimony {
+  margin-top: 5rem;
+}
+
+.Testimony2 {
+  margin-left: 40%;
+  margin-top: -27%;
+}
+
+#Testimony img {
+  margin-left: 10%;
+  width: 30%;
+}
+
+.Testimony-text {
+  background-color: #fff;
+  border-radius: 30px;
+  margin-left: -30.5%;
+  display: inline-block;
+  padding: 1rem;
+  margin-top: -2rem;
+}
+
+.Testimony-text p {
+  font-size: 12px;
+  color: #333;
+}
+
+.Testimony-text h5 {
+  margin-top: 2rem;
+  color: #333;
+}
+
+#Get h1{
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 50px;
+}
+
+.Getintouch {
+  display: flex;
+}
+
+.touch {
+  margin-left: 17%;
+}
+
+.touch h4 {
+  font-size: 1.5rem;
+  text-align: left;
+  color: #1DDA0C;
+  margin-bottom: 10px;
+}
+
+.touch li {
+  color: #fff;
+  font-size: 1rem;
+}
+
+#footer {
+  margin-top: 50px;
+  margin-left: 17%;
+  border-top: 2px solid #1DDA0C;
+  margin-right: 10%;
+  padding: 1rem;
+}
+
+#footer h5 {
+  text-align: left;
+  font-size: 1rem;
+}
