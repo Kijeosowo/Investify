@@ -22,7 +22,7 @@ nav {
   margin-top: 0px;
   background-color: #fff;
   height: 4rem;
-  box-shadow: 0px 0px 15px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 15px 15px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -31,7 +31,7 @@ nav ul {
   /* margin-top: 0; */
   padding-top: 1.5rem;
   margin-left: 40%;
-  background-color: #1DDA0C;
+  background-color: #1dda0c;
   height: 2.5rem;
   width: 50%;
 }
@@ -52,6 +52,13 @@ li a:hover {
   color: #fff;
 }
 
+#Switch button {
+  padding: 0.5rem;
+  margin-top: -5px;
+  border: none;
+  cursor: pointer;
+}
+
 .container {
   display: flex;
   margin-left: 0%;
@@ -62,9 +69,9 @@ li a:hover {
   width: 40%;
   margin-left: 10%;
   margin-top: 5%;
-  border: 5px solid #1DDA0C;
+  border: 5px solid #1dda0c;
   border-radius: 30px;
-  box-shadow: 0px 0px 15px 15px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 15px 15px rgba(0, 0, 0, 0.2);
 }
 
 .text {
@@ -77,7 +84,7 @@ h1 {
 }
 
 span {
-  color: #1DDA0C;
+  color: #1dda0c;
 }
 
 .text {
@@ -101,7 +108,7 @@ span {
   display: flex;
   background-color: rgb(212, 205, 205);
   height: 5vh;
-  box-shadow: 0px 0px 15px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 15px 15px rgba(0, 0, 0, 0.1);
 }
 
 #iPhone img {
@@ -130,10 +137,10 @@ span {
   padding: 1rem;
   border-radius: 5px;
   display: flex;
-  background-color: rgb(212, 205, 205);;
+  background-color: rgb(212, 205, 205);
   height: 5vh;
   margin-left: 2%;
-  box-shadow: 0px 0px 15px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 15px 15px rgba(0, 0, 0, 0.1);
 }
 
 #Android img {
@@ -182,7 +189,7 @@ h3 {
 }
 
 #savings {
-  box-shadow: 0px 0px 15px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 15px 15px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   padding-bottom: 5rem;
 }
@@ -209,12 +216,12 @@ h3 {
   padding: 2rem;
   border-radius: 5px;
   margin: 20px;
-  box-shadow: 0px 15px 15px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.3);
 }
 
 .Box1 a {
   text-decoration: none;
-  color: #1DDA0C;
+  color: #1dda0c;
   font-size: 13px;
 }
 
@@ -231,7 +238,8 @@ h3 {
 .Tutors {
   display: flex;
   margin-left: 0%;
-  margin-top: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .Tutors img {
@@ -260,46 +268,69 @@ h3 {
 
 .Learn a {
   text-decoration: none;
-  background-color: #1DDA0C;
+  background-color: #1dda0c;
   color: #fff;
   padding: 1rem;
   border-radius: 5px;
 }
 
-#Testimony {
-  margin-top: 5rem;
+#Testimonysection {
+  background-color: white;
+  padding-bottom: 5rem;
 }
 
-.Testimony2 {
-  margin-left: 40%;
-  margin-top: -27%;
+.Testimonyimagepart img {
+  margin-left: 50%;
 }
 
-#Testimony img {
-  margin-left: 10%;
-  width: 30%;
+.Testimonyimagepart h2 {
+  margin-top: -40%;
+  margin-left: 55%;
+  color: #fff;
+  /* padding: 1rem; */
+  font-size: 15px;
+  /* background-color: #1dda0c;
+  border-radius: 5px; */
 }
 
-.Testimony-text {
-  background-color: #fff;
-  border-radius: 30px;
-  margin-left: -30.5%;
-  display: inline-block;
+.Testimony {
+  display: flex;
+  padding-top: 4rem;
+}
+
+.Testimonytext {
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+.Testimonytext h1 {
+  color: #1dda0c;
+  font-size: 5rem;
+}
+
+.Testimonytext p {
+  color: #333;
+}
+
+.Testimonytext input {
+  font-size: 1rem;
+  padding: .8rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.Testimonytext button {
+  background-color: #1dda0c;
+  color: #fff;
+  border: none;
   padding: 1rem;
-  margin-top: -2rem;
+  border-radius: 5px;
+  box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
-.Testimony-text p {
-  font-size: 12px;
-  color: #333;
-}
-
-.Testimony-text h5 {
-  margin-top: 2rem;
-  color: #333;
-}
-
-#Get h1{
+#Get h1 {
   text-align: center;
   font-size: 1.5rem;
   margin-top: 50px;
@@ -316,7 +347,7 @@ h3 {
 .touch h4 {
   font-size: 1.5rem;
   text-align: left;
-  color: #1DDA0C;
+  color: #1dda0c;
   margin-bottom: 10px;
 }
 
@@ -328,7 +359,7 @@ h3 {
 #footer {
   margin-top: 50px;
   margin-left: 17%;
-  border-top: 2px solid #1DDA0C;
+  border-top: 2px solid #1dda0c;
   margin-right: 10%;
   padding: 1rem;
 }
