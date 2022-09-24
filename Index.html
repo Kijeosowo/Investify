@@ -6,29 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Investify</title>
     <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Lato&family=Montserrat:wght@100&display=swap"
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100&family=PT+Sans&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
     <!-- using FontAwesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <section>
       <nav>
-        <h2 class="logo">Inves<span>tify.</span></h2>
+        <!-- <h2 class="logo">Inves<span>tify</span></h2> -->
+        <input type="checkbox" id="check">
+          <label for="check" class="checkbtn">
+            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+          </label>
+          <label class="logo">Inves<span>tify</span></label>
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="#">Personal</a></li>
           <li><a href="#">Explore</a></li>
-          <li><a href="#">Where we are</a></li>
-          <li><a href="#">Buy</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Bromance</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">Developer</a></li>
+          <li><a href="#">Learn</a></li>
 
           <div id="Switch">
-            <button>Dark Mode</button>
+            <button><i class="fa-solid fa-moon"></i> Switch to Dark Mode</button>
           </div>
         </ul>
       </nav>
@@ -52,11 +54,13 @@
     </section>
     <div class="wrap">
       <div id="iPhone">
-        <img src="Image/Apple.png" alt="No Image">
-        <a href="#">Download on the <br> <b>App Store</b></a>
+        <!-- <img src="Image/Apple.png" alt="No Image"> -->
+        <i class="fa-brands fa-apple"></i>
+        <a href="#">Download on <br> <b>App Store</b></a>
       </div>
       <div id="Android">
-        <img src="Image/Playstore.png" alt="No Image">
+        <!-- <img src="Image/Playstore.png" alt="No Image"> -->
+        <i class="fa-brands fa-google-play"></i>
         <a href="#">Download on <br> <b>Playstore</b></a>
       </div>
     </div>
@@ -71,25 +75,28 @@
       </div>
       <div class="Box">
         <div class="Box1">
+          <i class="fa-solid fa-money-bill"></i>
           <h3>Save</h3>
           <br>
-          <p>Learn how to save with our 30% <br> discount rate.</p>
+          <p>Learn how to save with our 30% discount rate.</p>
           <br>
-          <a href="#">Learn More</a>
+          <a href="#" class="btn">Learn More</a>
         </div>
         <div class="Box1">
+          <i class="fa-solid fa-face-smile"></i>
           <h3>Financial Freedom</h3>
           <br>
           <p>Join us today and be financially independent.</p>
           <br>
-          <a href="#">Learn More</a>
+          <a href="#" class="btn">Learn More</a>
         </div>
         <div class="Box1">
+          <i class="fa-solid fa-handshake"></i>
           <h3>Be your own Boss</h3>
           <br>
           <p>Become your own boss today!.</p>
           <br>
-          <a href="#">Learn More</a>
+          <a href="#" class="btn">Learn More</a>
         </div>
       </div>
     </section>
@@ -133,47 +140,123 @@
     <section id="Freedom">
       <div class="Freedom">
         <h1>Get your Financial Freedom.</h1>
+        <br>
         <p>Plan towards your dream home, fund your kid's education, travel <br> the world, all in one app.</p>
+        <br>
+        <a href="#" class="btn">Learn More</a>
       </div>
     </section>
 
+    <!-- Money -->
+    <section id="Money">
+      <!-- <img src="Image/MultipleHands.gif" alt="No Image"> -->
+      <div class="Money">
+        <h1>Keeping your money <br> safe is our business.</h1>
+        <br>
+        <p>Trust is our currency. We are committed to the security of <br> your money and the protection of your account.</p>
+        <br>
+        <div class="Moneycharacteristics">
+          <div>
+            <h3><i class="fa-regular fa-newspaper"></i> Bank-grade Security</h3>
+            <br>
+            <p>We are PCI-DSS compliant to ensure <br> security of your data electronically. We <br> also provide you with an option to set up <br> 2FA for key transactions on your account. <br> 2FA serves as an extra layer of protection <br> to ensure the security of your account <br> beyond just a username and password.</p>
+          </div>
+          <div>
+            <h3><i class="fa-regular fa-newspaper"></i> Assets Custody</h3>
+            <br>
+            <p>Our users’ financial assets are held with a <br> licensed custodian, Zenith Nominees <br> Limited, for safekeeping to prevent <br> misappropriation, misuse, theft, and/or <br> loss, and in accordance with applicable <br> law.</p>
+          </div>
+          <div>
+            <br>
+            <h3><i class="fa-regular fa-newspaper"></i> Regulatory Compliance</h3>
+            <br>
+            <p>Cowrywise is a duly registered fund <br> manager with the Securities and <br> Exchange Commission (SEC) of Nigeria. <br> All our activities are in full compliance with <br> regulatory requirements to the ultimate <br> protection of our clients.</p>
+          </div>
+          <div>
+            <br>
+            <h3><i class="fa-regular fa-newspaper"></i> Best-In-Class Assets</h3>
+            <br>
+            <p>All the investment options listed on <br> Cowrywise, are carefully screened, <br> managed by professional fund managers. <br> All the diverse mutual funds registered <br> with the SEC, with standard third-party <br> custodian structure.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Payments -->
+    <section id="Payments">
+      <div class="Payments">
+        <div class="Simplepayments">
+          <h1>Make Simple & easy payments</h1>
+          <br>
+          <p>Building a business is hard. Getting paid shouldn't be.</p>
+          <br>
+          <!-- <a href="#">Start</a> -->
+          <button class="show-modal">Get Started</button>
+        </div>
+        <div>
+          <img src="Image/MultipleHands.gif" alt="No Image">
+        </div>
+      </div>
+
+      <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <h1>Oops! you haven't registered yet 📛</h1>
+        <br>
+        <p>
+          Go back to get registered.
+        </p>
+      </div>
+    </section>
+
+    <div class="overlay hidden"></div>
+
     <!-- Get in touch -->
     <section id="Get">
-      <h1>Get in touch</h1>
       <div class="Getintouch">
         <div class="touch">
-          <h4>Lorem</h4>
-          <li>Lorem</li>
-          <li>Lorem</li>
-          <li>Lorem</li>
-          <li>Lorem</li>
+          <h4>Company</h4>
+          <br>
+          <li><a href="#" class="btn">About us</a></li>
+          <li><a href="#" class="btn">Press</a></li>
+          <li><a href="#" class="btn">Careers</a></li>
+          <li><a href="#" class="btn">Opportunity</a></li>
+          <li><a href="#" class="btn">Privacy</a></li>
+          <li><a href="#" class="btn">Terms & Conditions</a></li>
         </div>
         <div class="touch">
-          <h4>Lorem</h4>
-          <li>Lorem</li>
-          <li>Lorem</li>
-          <li>Lorem</li>
+          <h4>Product</h4>
+          <br>
+          <li><a href="#" class="btn">Saving Plans</a></li>
+          <li><a href="#" class="btn">Investment Plans</a></li>
+          <li><a href="#" class="btn">Mutual funds</a></li>
+          <li><a href="#" class="btn">Stash</a></li>
+          <li><a href="#" class="btn">Embed APIs</a></li>
+          <li><a href="#" class="btn">Suggestions?</a></li>
         </div>
         <div class="touch">
-          <h4>Lorem</h4>
-          <li>Lorem</li>
-          <li>Lorem</li>
-          <li>Lorem</li>
-          <li>Lorem</li>
+          <h4>Resources</h4>
+          <br>
+          <li><a href="#" class="btn">Customer Stories</a></li>
+          <li><a href="#" class="btn">Media</a></li>
+          <li><a href="#" class="btn">FAQs</a></li>
+          <li><a href="#" class="btn">Security</a></li>
+          <li><a href="#" class="btn">Estimate your Interests</a></li>
+          <li><a href="#" class="btn">Plan Education</a></li>
+          <li><a href="#" class="btn">Blog</a></li>
+          <li><a href="#" class="btn">Help Center</a></li>
         </div>
         <div class="touch">
-          <h4>Lorem</h4>
-          <li>Lorem</li>
-          <li>Lorem</li>
-          <li>Lorem</li>
-          <li>Lorem</li>
+          <h4>Contact</h4>
+          <br>
+          <li><a href="#" class="btn">Support@Investify.com</a></li>
+          <li><a href="#" class="btn">WhatsApp</a></li>
         </div>
       </div>
     </section>
 
     <!-- footer -->
     <section id="footer">
-      <h5>Getintouch</h5>
+      <h5>Copyright@Investify 2022</h5>
     </section>
     <script src="Script.js"></script>
   </body>
